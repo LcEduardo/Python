@@ -1,0 +1,6 @@
+n1 = input('Digite algo: ')
+print(type(n1))
+print('O {} é numérico?'.format(n1), n1.isnumeric())
+print('O {} é maiúsculo?'.format(n1), n1.isupper())
+print('O {} é minúsculo?'.format(n1), n1.islower())
+print('O {} é Letra?'.format(n1), n1.isalpha())
